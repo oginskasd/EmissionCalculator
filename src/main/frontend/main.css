@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.waves-bg {
+    background-image: url("/img/img-transparent-waves-color.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+select.invalid, input.invalid {
+    @apply bg-red-50 border border-red-500 text-red-900 placeholder-red-700;
+}

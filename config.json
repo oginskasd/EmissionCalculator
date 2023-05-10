@@ -1,0 +1,1506 @@
+{
+  "FUEL_TYPES": [
+    {
+      "CODE": "GB",
+      "NAME": "Benzinas"
+    },
+    {
+      "CODE": "GBEL",
+      "NAME": "Benzinas ir Elektra"
+    },
+    {
+      "CODE": "GBET",
+      "NAME": "Benzinas ir Etanolis"
+    },
+    {
+      "CODE": "GBGD",
+      "NAME": "Benzinas ir Dujos"
+    },
+    {
+      "CODE": "GBGDEL",
+      "NAME": "Benzinas, Dujos ir Elektra"
+    },
+    {
+      "CODE": "D",
+      "NAME": "Dyzelinas"
+    },
+    {
+      "CODE": "DEL",
+      "NAME": "Dyzelinas ir Elektra"
+    },
+    {
+      "CODE": "DGD",
+      "NAME": "Dyzelinas ir Dujos"
+    },
+    {
+      "CODE": "GD",
+      "NAME": "Dujos"
+    },
+    {
+      "CODE": "EL",
+      "NAME": "Elektra"
+    },
+    {
+      "CODE": "ET",
+      "NAME": "Etanolis"
+    },
+    {
+      "CODE": "GDET",
+      "NAME": "Dujos ir Etanolis"
+    }
+  ],
+  "PRICES": [
+    {
+      "FUEL_CODE": "D",
+      "CO2_VALUE_FROM": "0",
+      "CO2_VALUE_TO": "115.99",
+      "PRICE_VALUE": "0"
+    },
+    {
+      "FUEL_CODE": "D",
+      "CO2_VALUE_FROM": "116",
+      "CO2_VALUE_TO": "130.99",
+      "PRICE_VALUE": "0"
+    },
+    {
+      "FUEL_CODE": "D",
+      "CO2_VALUE_FROM": "131",
+      "CO2_VALUE_TO": "140.99",
+      "PRICE_VALUE": "40.47"
+    },
+    {
+      "FUEL_CODE": "D",
+      "CO2_VALUE_FROM": "141",
+      "CO2_VALUE_TO": "150.99",
+      "PRICE_VALUE": "80.94"
+    },
+    {
+      "FUEL_CODE": "D",
+      "CO2_VALUE_FROM": "151",
+      "CO2_VALUE_TO": "160.99",
+      "PRICE_VALUE": "121.41"
+    },
+    {
+      "FUEL_CODE": "D",
+      "CO2_VALUE_FROM": "161",
+      "CO2_VALUE_TO": "170.99",
+      "PRICE_VALUE": "161.88"
+    },
+    {
+      "FUEL_CODE": "D",
+      "CO2_VALUE_FROM": "171",
+      "CO2_VALUE_TO": "180.99",
+      "PRICE_VALUE": "202.35"
+    },
+    {
+      "FUEL_CODE": "D",
+      "CO2_VALUE_FROM": "181",
+      "CO2_VALUE_TO": "190.99",
+      "PRICE_VALUE": "242.82"
+    },
+    {
+      "FUEL_CODE": "D",
+      "CO2_VALUE_FROM": "191",
+      "CO2_VALUE_TO": "200.99",
+      "PRICE_VALUE": "283.29"
+    },
+    {
+      "FUEL_CODE": "D",
+      "CO2_VALUE_FROM": "201",
+      "CO2_VALUE_TO": "210.99",
+      "PRICE_VALUE": "323.76"
+    },
+    {
+      "FUEL_CODE": "D",
+      "CO2_VALUE_FROM": "211",
+      "CO2_VALUE_TO": "220.99",
+      "PRICE_VALUE": "364.23"
+    },
+    {
+      "FUEL_CODE": "D",
+      "CO2_VALUE_FROM": "221",
+      "CO2_VALUE_TO": "230.99",
+      "PRICE_VALUE": "404.7"
+    },
+    {
+      "FUEL_CODE": "D",
+      "CO2_VALUE_FROM": "231",
+      "CO2_VALUE_TO": "240.99",
+      "PRICE_VALUE": "445.17"
+    },
+    {
+      "FUEL_CODE": "D",
+      "CO2_VALUE_FROM": "241",
+      "CO2_VALUE_TO": "250.99",
+      "PRICE_VALUE": "485.64"
+    },
+    {
+      "FUEL_CODE": "D",
+      "CO2_VALUE_FROM": "251",
+      "CO2_VALUE_TO": "260.99",
+      "PRICE_VALUE": "526.11"
+    },
+    {
+      "FUEL_CODE": "D",
+      "CO2_VALUE_FROM": "261",
+      "CO2_VALUE_TO": "270.99",
+      "PRICE_VALUE": "566.58"
+    },
+    {
+      "FUEL_CODE": "D",
+      "CO2_VALUE_FROM": "271",
+      "CO2_VALUE_TO": "280.99",
+      "PRICE_VALUE": "607.05"
+    },
+    {
+      "FUEL_CODE": "D",
+      "CO2_VALUE_FROM": "281",
+      "CO2_VALUE_TO": "290.99",
+      "PRICE_VALUE": "647.52"
+    },
+    {
+      "FUEL_CODE": "D",
+      "CO2_VALUE_FROM": "291",
+      "CO2_VALUE_TO": "300.99",
+      "PRICE_VALUE": "687.99"
+    },
+    {
+      "FUEL_CODE": "D",
+      "CO2_VALUE_FROM": "301",
+      "CO2_VALUE_TO": "99999.99",
+      "PRICE_VALUE": "728.46"
+    },
+    {
+      "FUEL_CODE": "DEL",
+      "CO2_VALUE_FROM": "0",
+      "CO2_VALUE_TO": "115.99",
+      "PRICE_VALUE": "0"
+    },
+    {
+      "FUEL_CODE": "DEL",
+      "CO2_VALUE_FROM": "116",
+      "CO2_VALUE_TO": "130.99",
+      "PRICE_VALUE": "0"
+    },
+    {
+      "FUEL_CODE": "DEL",
+      "CO2_VALUE_FROM": "131",
+      "CO2_VALUE_TO": "140.99",
+      "PRICE_VALUE": "40.47"
+    },
+    {
+      "FUEL_CODE": "DEL",
+      "CO2_VALUE_FROM": "141",
+      "CO2_VALUE_TO": "150.99",
+      "PRICE_VALUE": "80.94"
+    },
+    {
+      "FUEL_CODE": "DEL",
+      "CO2_VALUE_FROM": "151",
+      "CO2_VALUE_TO": "160.99",
+      "PRICE_VALUE": "121.41"
+    },
+    {
+      "FUEL_CODE": "DEL",
+      "CO2_VALUE_FROM": "161",
+      "CO2_VALUE_TO": "170.99",
+      "PRICE_VALUE": "161.88"
+    },
+    {
+      "FUEL_CODE": "DEL",
+      "CO2_VALUE_FROM": "171",
+      "CO2_VALUE_TO": "180.99",
+      "PRICE_VALUE": "202.35"
+    },
+    {
+      "FUEL_CODE": "DEL",
+      "CO2_VALUE_FROM": "181",
+      "CO2_VALUE_TO": "190.99",
+      "PRICE_VALUE": "242.82"
+    },
+    {
+      "FUEL_CODE": "DEL",
+      "CO2_VALUE_FROM": "191",
+      "CO2_VALUE_TO": "200.99",
+      "PRICE_VALUE": "283.29"
+    },
+    {
+      "FUEL_CODE": "DEL",
+      "CO2_VALUE_FROM": "201",
+      "CO2_VALUE_TO": "210.99",
+      "PRICE_VALUE": "323.76"
+    },
+    {
+      "FUEL_CODE": "DEL",
+      "CO2_VALUE_FROM": "211",
+      "CO2_VALUE_TO": "220.99",
+      "PRICE_VALUE": "364.23"
+    },
+    {
+      "FUEL_CODE": "DEL",
+      "CO2_VALUE_FROM": "221",
+      "CO2_VALUE_TO": "230.99",
+      "PRICE_VALUE": "404.7"
+    },
+    {
+      "FUEL_CODE": "DEL",
+      "CO2_VALUE_FROM": "231",
+      "CO2_VALUE_TO": "240.99",
+      "PRICE_VALUE": "445.17"
+    },
+    {
+      "FUEL_CODE": "DEL",
+      "CO2_VALUE_FROM": "241",
+      "CO2_VALUE_TO": "250.99",
+      "PRICE_VALUE": "485.64"
+    },
+    {
+      "FUEL_CODE": "DEL",
+      "CO2_VALUE_FROM": "251",
+      "CO2_VALUE_TO": "260.99",
+      "PRICE_VALUE": "526.11"
+    },
+    {
+      "FUEL_CODE": "DEL",
+      "CO2_VALUE_FROM": "261",
+      "CO2_VALUE_TO": "270.99",
+      "PRICE_VALUE": "566.58"
+    },
+    {
+      "FUEL_CODE": "DEL",
+      "CO2_VALUE_FROM": "271",
+      "CO2_VALUE_TO": "280.99",
+      "PRICE_VALUE": "607.05"
+    },
+    {
+      "FUEL_CODE": "DEL",
+      "CO2_VALUE_FROM": "281",
+      "CO2_VALUE_TO": "290.99",
+      "PRICE_VALUE": "647.52"
+    },
+    {
+      "FUEL_CODE": "DEL",
+      "CO2_VALUE_FROM": "291",
+      "CO2_VALUE_TO": "300.99",
+      "PRICE_VALUE": "687.99"
+    },
+    {
+      "FUEL_CODE": "DEL",
+      "CO2_VALUE_FROM": "301",
+      "CO2_VALUE_TO": "99999.99",
+      "PRICE_VALUE": "728.46"
+    },
+    {
+      "FUEL_CODE": "DGD",
+      "CO2_VALUE_FROM": "0",
+      "CO2_VALUE_TO": "115.99",
+      "PRICE_VALUE": "0"
+    },
+    {
+      "FUEL_CODE": "DGD",
+      "CO2_VALUE_FROM": "116",
+      "CO2_VALUE_TO": "130.99",
+      "PRICE_VALUE": "0"
+    },
+    {
+      "FUEL_CODE": "DGD",
+      "CO2_VALUE_FROM": "131",
+      "CO2_VALUE_TO": "140.99",
+      "PRICE_VALUE": "40.47"
+    },
+    {
+      "FUEL_CODE": "DGD",
+      "CO2_VALUE_FROM": "141",
+      "CO2_VALUE_TO": "150.99",
+      "PRICE_VALUE": "80.94"
+    },
+    {
+      "FUEL_CODE": "DGD",
+      "CO2_VALUE_FROM": "151",
+      "CO2_VALUE_TO": "160.99",
+      "PRICE_VALUE": "121.41"
+    },
+    {
+      "FUEL_CODE": "DGD",
+      "CO2_VALUE_FROM": "161",
+      "CO2_VALUE_TO": "170.99",
+      "PRICE_VALUE": "161.88"
+    },
+    {
+      "FUEL_CODE": "DGD",
+      "CO2_VALUE_FROM": "171",
+      "CO2_VALUE_TO": "180.99",
+      "PRICE_VALUE": "202.35"
+    },
+    {
+      "FUEL_CODE": "DGD",
+      "CO2_VALUE_FROM": "181",
+      "CO2_VALUE_TO": "190.99",
+      "PRICE_VALUE": "242.82"
+    },
+    {
+      "FUEL_CODE": "DGD",
+      "CO2_VALUE_FROM": "191",
+      "CO2_VALUE_TO": "200.99",
+      "PRICE_VALUE": "283.29"
+    },
+    {
+      "FUEL_CODE": "DGD",
+      "CO2_VALUE_FROM": "201",
+      "CO2_VALUE_TO": "210.99",
+      "PRICE_VALUE": "323.76"
+    },
+    {
+      "FUEL_CODE": "DGD",
+      "CO2_VALUE_FROM": "211",
+      "CO2_VALUE_TO": "220.99",
+      "PRICE_VALUE": "364.23"
+    },
+    {
+      "FUEL_CODE": "DGD",
+      "CO2_VALUE_FROM": "221",
+      "CO2_VALUE_TO": "230.99",
+      "PRICE_VALUE": "404.7"
+    },
+    {
+      "FUEL_CODE": "DGD",
+      "CO2_VALUE_FROM": "231",
+      "CO2_VALUE_TO": "240.99",
+      "PRICE_VALUE": "445.17"
+    },
+    {
+      "FUEL_CODE": "DGD",
+      "CO2_VALUE_FROM": "241",
+      "CO2_VALUE_TO": "250.99",
+      "PRICE_VALUE": "485.64"
+    },
+    {
+      "FUEL_CODE": "DGD",
+      "CO2_VALUE_FROM": "251",
+      "CO2_VALUE_TO": "260.99",
+      "PRICE_VALUE": "526.11"
+    },
+    {
+      "FUEL_CODE": "DGD",
+      "CO2_VALUE_FROM": "261",
+      "CO2_VALUE_TO": "270.99",
+      "PRICE_VALUE": "566.58"
+    },
+    {
+      "FUEL_CODE": "DGD",
+      "CO2_VALUE_FROM": "271",
+      "CO2_VALUE_TO": "280.99",
+      "PRICE_VALUE": "607.05"
+    },
+    {
+      "FUEL_CODE": "DGD",
+      "CO2_VALUE_FROM": "281",
+      "CO2_VALUE_TO": "290.99",
+      "PRICE_VALUE": "647.52"
+    },
+    {
+      "FUEL_CODE": "DGD",
+      "CO2_VALUE_FROM": "291",
+      "CO2_VALUE_TO": "300.99",
+      "PRICE_VALUE": "687.99"
+    },
+    {
+      "FUEL_CODE": "DGD",
+      "CO2_VALUE_FROM": "301",
+      "CO2_VALUE_TO": "99999.99",
+      "PRICE_VALUE": "728.46"
+    },
+    {
+      "FUEL_CODE": "EL",
+      "CO2_VALUE_FROM": "0",
+      "CO2_VALUE_TO": "999.99",
+      "PRICE_VALUE": "0"
+    },
+    {
+      "FUEL_CODE": "ET",
+      "CO2_VALUE_FROM": "0",
+      "CO2_VALUE_TO": "115.99",
+      "PRICE_VALUE": "0"
+    },
+    {
+      "FUEL_CODE": "ET",
+      "CO2_VALUE_FROM": "116",
+      "CO2_VALUE_TO": "130.99",
+      "PRICE_VALUE": "0"
+    },
+    {
+      "FUEL_CODE": "ET",
+      "CO2_VALUE_FROM": "131",
+      "CO2_VALUE_TO": "140.99",
+      "PRICE_VALUE": "18.21"
+    },
+    {
+      "FUEL_CODE": "ET",
+      "CO2_VALUE_FROM": "141",
+      "CO2_VALUE_TO": "150.99",
+      "PRICE_VALUE": "36.42"
+    },
+    {
+      "FUEL_CODE": "ET",
+      "CO2_VALUE_FROM": "151",
+      "CO2_VALUE_TO": "160.99",
+      "PRICE_VALUE": "54.63"
+    },
+    {
+      "FUEL_CODE": "ET",
+      "CO2_VALUE_FROM": "161",
+      "CO2_VALUE_TO": "170.99",
+      "PRICE_VALUE": "72.85"
+    },
+    {
+      "FUEL_CODE": "ET",
+      "CO2_VALUE_FROM": "171",
+      "CO2_VALUE_TO": "180.99",
+      "PRICE_VALUE": "91.06"
+    },
+    {
+      "FUEL_CODE": "ET",
+      "CO2_VALUE_FROM": "181",
+      "CO2_VALUE_TO": "190.99",
+      "PRICE_VALUE": "109.27"
+    },
+    {
+      "FUEL_CODE": "ET",
+      "CO2_VALUE_FROM": "191",
+      "CO2_VALUE_TO": "200.99",
+      "PRICE_VALUE": "127.48"
+    },
+    {
+      "FUEL_CODE": "ET",
+      "CO2_VALUE_FROM": "201",
+      "CO2_VALUE_TO": "210.99",
+      "PRICE_VALUE": "145.69"
+    },
+    {
+      "FUEL_CODE": "ET",
+      "CO2_VALUE_FROM": "211",
+      "CO2_VALUE_TO": "220.99",
+      "PRICE_VALUE": "163.9"
+    },
+    {
+      "FUEL_CODE": "ET",
+      "CO2_VALUE_FROM": "221",
+      "CO2_VALUE_TO": "230.99",
+      "PRICE_VALUE": "182.12"
+    },
+    {
+      "FUEL_CODE": "ET",
+      "CO2_VALUE_FROM": "231",
+      "CO2_VALUE_TO": "240.99",
+      "PRICE_VALUE": "200.33"
+    },
+    {
+      "FUEL_CODE": "ET",
+      "CO2_VALUE_FROM": "241",
+      "CO2_VALUE_TO": "250.99",
+      "PRICE_VALUE": "218.54"
+    },
+    {
+      "FUEL_CODE": "ET",
+      "CO2_VALUE_FROM": "251",
+      "CO2_VALUE_TO": "260.99",
+      "PRICE_VALUE": "236.75"
+    },
+    {
+      "FUEL_CODE": "ET",
+      "CO2_VALUE_FROM": "261",
+      "CO2_VALUE_TO": "270.99",
+      "PRICE_VALUE": "254.96"
+    },
+    {
+      "FUEL_CODE": "ET",
+      "CO2_VALUE_FROM": "271",
+      "CO2_VALUE_TO": "280.99",
+      "PRICE_VALUE": "273.17"
+    },
+    {
+      "FUEL_CODE": "ET",
+      "CO2_VALUE_FROM": "281",
+      "CO2_VALUE_TO": "290.99",
+      "PRICE_VALUE": "291.38"
+    },
+    {
+      "FUEL_CODE": "ET",
+      "CO2_VALUE_FROM": "291",
+      "CO2_VALUE_TO": "300.99",
+      "PRICE_VALUE": "309.6"
+    },
+    {
+      "FUEL_CODE": "ET",
+      "CO2_VALUE_FROM": "301",
+      "CO2_VALUE_TO": "99999.99",
+      "PRICE_VALUE": "327.81"
+    },
+    {
+      "FUEL_CODE": "GB",
+      "CO2_VALUE_FROM": "0",
+      "CO2_VALUE_TO": "115.99",
+      "PRICE_VALUE": "0"
+    },
+    {
+      "FUEL_CODE": "GB",
+      "CO2_VALUE_FROM": "116",
+      "CO2_VALUE_TO": "130.99",
+      "PRICE_VALUE": "0"
+    },
+    {
+      "FUEL_CODE": "GB",
+      "CO2_VALUE_FROM": "131",
+      "CO2_VALUE_TO": "140.99",
+      "PRICE_VALUE": "20.24"
+    },
+    {
+      "FUEL_CODE": "GB",
+      "CO2_VALUE_FROM": "141",
+      "CO2_VALUE_TO": "150.99",
+      "PRICE_VALUE": "40.47"
+    },
+    {
+      "FUEL_CODE": "GB",
+      "CO2_VALUE_FROM": "151",
+      "CO2_VALUE_TO": "160.99",
+      "PRICE_VALUE": "60.71"
+    },
+    {
+      "FUEL_CODE": "GB",
+      "CO2_VALUE_FROM": "161",
+      "CO2_VALUE_TO": "170.99",
+      "PRICE_VALUE": "80.94"
+    },
+    {
+      "FUEL_CODE": "GB",
+      "CO2_VALUE_FROM": "171",
+      "CO2_VALUE_TO": "180.99",
+      "PRICE_VALUE": "101.18"
+    },
+    {
+      "FUEL_CODE": "GB",
+      "CO2_VALUE_FROM": "181",
+      "CO2_VALUE_TO": "190.99",
+      "PRICE_VALUE": "121.41"
+    },
+    {
+      "FUEL_CODE": "GB",
+      "CO2_VALUE_FROM": "191",
+      "CO2_VALUE_TO": "200.99",
+      "PRICE_VALUE": "141.65"
+    },
+    {
+      "FUEL_CODE": "GB",
+      "CO2_VALUE_FROM": "201",
+      "CO2_VALUE_TO": "210.99",
+      "PRICE_VALUE": "161.88"
+    },
+    {
+      "FUEL_CODE": "GB",
+      "CO2_VALUE_FROM": "211",
+      "CO2_VALUE_TO": "220.99",
+      "PRICE_VALUE": "182.12"
+    },
+    {
+      "FUEL_CODE": "GB",
+      "CO2_VALUE_FROM": "221",
+      "CO2_VALUE_TO": "230.99",
+      "PRICE_VALUE": "202.35"
+    },
+    {
+      "FUEL_CODE": "GB",
+      "CO2_VALUE_FROM": "231",
+      "CO2_VALUE_TO": "240.99",
+      "PRICE_VALUE": "222.59"
+    },
+    {
+      "FUEL_CODE": "GB",
+      "CO2_VALUE_FROM": "241",
+      "CO2_VALUE_TO": "250.99",
+      "PRICE_VALUE": "242.82"
+    },
+    {
+      "FUEL_CODE": "GB",
+      "CO2_VALUE_FROM": "251",
+      "CO2_VALUE_TO": "260.99",
+      "PRICE_VALUE": "263.06"
+    },
+    {
+      "FUEL_CODE": "GB",
+      "CO2_VALUE_FROM": "261",
+      "CO2_VALUE_TO": "270.99",
+      "PRICE_VALUE": "283.29"
+    },
+    {
+      "FUEL_CODE": "GB",
+      "CO2_VALUE_FROM": "271",
+      "CO2_VALUE_TO": "280.99",
+      "PRICE_VALUE": "303.53"
+    },
+    {
+      "FUEL_CODE": "GB",
+      "CO2_VALUE_FROM": "281",
+      "CO2_VALUE_TO": "290.99",
+      "PRICE_VALUE": "323.76"
+    },
+    {
+      "FUEL_CODE": "GB",
+      "CO2_VALUE_FROM": "291",
+      "CO2_VALUE_TO": "300.99",
+      "PRICE_VALUE": "344"
+    },
+    {
+      "FUEL_CODE": "GB",
+      "CO2_VALUE_FROM": "301",
+      "CO2_VALUE_TO": "99999.99",
+      "PRICE_VALUE": "364.23"
+    },
+    {
+      "FUEL_CODE": "GBEL",
+      "CO2_VALUE_FROM": "0",
+      "CO2_VALUE_TO": "115.99",
+      "PRICE_VALUE": "0"
+    },
+    {
+      "FUEL_CODE": "GBEL",
+      "CO2_VALUE_FROM": "116",
+      "CO2_VALUE_TO": "130.99",
+      "PRICE_VALUE": "0"
+    },
+    {
+      "FUEL_CODE": "GBEL",
+      "CO2_VALUE_FROM": "131",
+      "CO2_VALUE_TO": "140.99",
+      "PRICE_VALUE": "20.24"
+    },
+    {
+      "FUEL_CODE": "GBEL",
+      "CO2_VALUE_FROM": "141",
+      "CO2_VALUE_TO": "150.99",
+      "PRICE_VALUE": "40.47"
+    },
+    {
+      "FUEL_CODE": "GBEL",
+      "CO2_VALUE_FROM": "151",
+      "CO2_VALUE_TO": "160.99",
+      "PRICE_VALUE": "60.71"
+    },
+    {
+      "FUEL_CODE": "GBEL",
+      "CO2_VALUE_FROM": "161",
+      "CO2_VALUE_TO": "170.99",
+      "PRICE_VALUE": "80.94"
+    },
+    {
+      "FUEL_CODE": "GBEL",
+      "CO2_VALUE_FROM": "171",
+      "CO2_VALUE_TO": "180.99",
+      "PRICE_VALUE": "101.18"
+    },
+    {
+      "FUEL_CODE": "GBEL",
+      "CO2_VALUE_FROM": "181",
+      "CO2_VALUE_TO": "190.99",
+      "PRICE_VALUE": "121.41"
+    },
+    {
+      "FUEL_CODE": "GBEL",
+      "CO2_VALUE_FROM": "191",
+      "CO2_VALUE_TO": "200.99",
+      "PRICE_VALUE": "141.65"
+    },
+    {
+      "FUEL_CODE": "GBEL",
+      "CO2_VALUE_FROM": "201",
+      "CO2_VALUE_TO": "210.99",
+      "PRICE_VALUE": "161.88"
+    },
+    {
+      "FUEL_CODE": "GBEL",
+      "CO2_VALUE_FROM": "211",
+      "CO2_VALUE_TO": "220.99",
+      "PRICE_VALUE": "182.12"
+    },
+    {
+      "FUEL_CODE": "GBEL",
+      "CO2_VALUE_FROM": "221",
+      "CO2_VALUE_TO": "230.99",
+      "PRICE_VALUE": "202.35"
+    },
+    {
+      "FUEL_CODE": "GBEL",
+      "CO2_VALUE_FROM": "231",
+      "CO2_VALUE_TO": "240.99",
+      "PRICE_VALUE": "222.59"
+    },
+    {
+      "FUEL_CODE": "GBEL",
+      "CO2_VALUE_FROM": "241",
+      "CO2_VALUE_TO": "250.99",
+      "PRICE_VALUE": "242.82"
+    },
+    {
+      "FUEL_CODE": "GBEL",
+      "CO2_VALUE_FROM": "251",
+      "CO2_VALUE_TO": "260.99",
+      "PRICE_VALUE": "263.06"
+    },
+    {
+      "FUEL_CODE": "GBEL",
+      "CO2_VALUE_FROM": "261",
+      "CO2_VALUE_TO": "270.99",
+      "PRICE_VALUE": "283.29"
+    },
+    {
+      "FUEL_CODE": "GBEL",
+      "CO2_VALUE_FROM": "271",
+      "CO2_VALUE_TO": "280.99",
+      "PRICE_VALUE": "303.53"
+    },
+    {
+      "FUEL_CODE": "GBEL",
+      "CO2_VALUE_FROM": "281",
+      "CO2_VALUE_TO": "290.99",
+      "PRICE_VALUE": "323.76"
+    },
+    {
+      "FUEL_CODE": "GBEL",
+      "CO2_VALUE_FROM": "291",
+      "CO2_VALUE_TO": "300.99",
+      "PRICE_VALUE": "344"
+    },
+    {
+      "FUEL_CODE": "GBEL",
+      "CO2_VALUE_FROM": "301",
+      "CO2_VALUE_TO": "99999.99",
+      "PRICE_VALUE": "364.23"
+    },
+    {
+      "FUEL_CODE": "GBET",
+      "CO2_VALUE_FROM": "0",
+      "CO2_VALUE_TO": "115.99",
+      "PRICE_VALUE": "0"
+    },
+    {
+      "FUEL_CODE": "GBET",
+      "CO2_VALUE_FROM": "116",
+      "CO2_VALUE_TO": "130.99",
+      "PRICE_VALUE": "0"
+    },
+    {
+      "FUEL_CODE": "GBET",
+      "CO2_VALUE_FROM": "131",
+      "CO2_VALUE_TO": "140.99",
+      "PRICE_VALUE": "18.21"
+    },
+    {
+      "FUEL_CODE": "GBET",
+      "CO2_VALUE_FROM": "141",
+      "CO2_VALUE_TO": "150.99",
+      "PRICE_VALUE": "36.42"
+    },
+    {
+      "FUEL_CODE": "GBET",
+      "CO2_VALUE_FROM": "151",
+      "CO2_VALUE_TO": "160.99",
+      "PRICE_VALUE": "54.63"
+    },
+    {
+      "FUEL_CODE": "GBET",
+      "CO2_VALUE_FROM": "161",
+      "CO2_VALUE_TO": "170.99",
+      "PRICE_VALUE": "72.85"
+    },
+    {
+      "FUEL_CODE": "GBET",
+      "CO2_VALUE_FROM": "171",
+      "CO2_VALUE_TO": "180.99",
+      "PRICE_VALUE": "91.06"
+    },
+    {
+      "FUEL_CODE": "GBET",
+      "CO2_VALUE_FROM": "181",
+      "CO2_VALUE_TO": "190.99",
+      "PRICE_VALUE": "109.27"
+    },
+    {
+      "FUEL_CODE": "GBET",
+      "CO2_VALUE_FROM": "191",
+      "CO2_VALUE_TO": "200.99",
+      "PRICE_VALUE": "127.48"
+    },
+    {
+      "FUEL_CODE": "GBET",
+      "CO2_VALUE_FROM": "201",
+      "CO2_VALUE_TO": "210.99",
+      "PRICE_VALUE": "145.69"
+    },
+    {
+      "FUEL_CODE": "GBET",
+      "CO2_VALUE_FROM": "211",
+      "CO2_VALUE_TO": "220.99",
+      "PRICE_VALUE": "163.9"
+    },
+    {
+      "FUEL_CODE": "GBET",
+      "CO2_VALUE_FROM": "221",
+      "CO2_VALUE_TO": "230.99",
+      "PRICE_VALUE": "182.12"
+    },
+    {
+      "FUEL_CODE": "GBET",
+      "CO2_VALUE_FROM": "231",
+      "CO2_VALUE_TO": "240.99",
+      "PRICE_VALUE": "200.33"
+    },
+    {
+      "FUEL_CODE": "GBET",
+      "CO2_VALUE_FROM": "241",
+      "CO2_VALUE_TO": "250.99",
+      "PRICE_VALUE": "218.54"
+    },
+    {
+      "FUEL_CODE": "GBET",
+      "CO2_VALUE_FROM": "251",
+      "CO2_VALUE_TO": "260.99",
+      "PRICE_VALUE": "236.75"
+    },
+    {
+      "FUEL_CODE": "GBET",
+      "CO2_VALUE_FROM": "261",
+      "CO2_VALUE_TO": "270.99",
+      "PRICE_VALUE": "254.96"
+    },
+    {
+      "FUEL_CODE": "GBET",
+      "CO2_VALUE_FROM": "271",
+      "CO2_VALUE_TO": "280.99",
+      "PRICE_VALUE": "273.17"
+    },
+    {
+      "FUEL_CODE": "GBET",
+      "CO2_VALUE_FROM": "281",
+      "CO2_VALUE_TO": "290.99",
+      "PRICE_VALUE": "291.38"
+    },
+    {
+      "FUEL_CODE": "GBET",
+      "CO2_VALUE_FROM": "291",
+      "CO2_VALUE_TO": "300.99",
+      "PRICE_VALUE": "309.6"
+    },
+    {
+      "FUEL_CODE": "GBET",
+      "CO2_VALUE_FROM": "301",
+      "CO2_VALUE_TO": "99999.99",
+      "PRICE_VALUE": "327.81"
+    },
+    {
+      "FUEL_CODE": "GBGD",
+      "CO2_VALUE_FROM": "0",
+      "CO2_VALUE_TO": "115.99",
+      "PRICE_VALUE": "0"
+    },
+    {
+      "FUEL_CODE": "GBGD",
+      "CO2_VALUE_FROM": "116",
+      "CO2_VALUE_TO": "130.99",
+      "PRICE_VALUE": "0"
+    },
+    {
+      "FUEL_CODE": "GBGD",
+      "CO2_VALUE_FROM": "131",
+      "CO2_VALUE_TO": "140.99",
+      "PRICE_VALUE": "18.21"
+    },
+    {
+      "FUEL_CODE": "GBGD",
+      "CO2_VALUE_FROM": "141",
+      "CO2_VALUE_TO": "150.99",
+      "PRICE_VALUE": "36.42"
+    },
+    {
+      "FUEL_CODE": "GBGD",
+      "CO2_VALUE_FROM": "151",
+      "CO2_VALUE_TO": "160.99",
+      "PRICE_VALUE": "54.63"
+    },
+    {
+      "FUEL_CODE": "GBGD",
+      "CO2_VALUE_FROM": "161",
+      "CO2_VALUE_TO": "170.99",
+      "PRICE_VALUE": "72.85"
+    },
+    {
+      "FUEL_CODE": "GBGD",
+      "CO2_VALUE_FROM": "171",
+      "CO2_VALUE_TO": "180.99",
+      "PRICE_VALUE": "91.06"
+    },
+    {
+      "FUEL_CODE": "GBGD",
+      "CO2_VALUE_FROM": "181",
+      "CO2_VALUE_TO": "190.99",
+      "PRICE_VALUE": "109.27"
+    },
+    {
+      "FUEL_CODE": "GBGD",
+      "CO2_VALUE_FROM": "191",
+      "CO2_VALUE_TO": "200.99",
+      "PRICE_VALUE": "127.48"
+    },
+    {
+      "FUEL_CODE": "GBGD",
+      "CO2_VALUE_FROM": "201",
+      "CO2_VALUE_TO": "210.99",
+      "PRICE_VALUE": "145.69"
+    },
+    {
+      "FUEL_CODE": "GBGD",
+      "CO2_VALUE_FROM": "211",
+      "CO2_VALUE_TO": "220.99",
+      "PRICE_VALUE": "163.9"
+    },
+    {
+      "FUEL_CODE": "GBGD",
+      "CO2_VALUE_FROM": "221",
+      "CO2_VALUE_TO": "230.99",
+      "PRICE_VALUE": "182.12"
+    },
+    {
+      "FUEL_CODE": "GBGD",
+      "CO2_VALUE_FROM": "231",
+      "CO2_VALUE_TO": "240.99",
+      "PRICE_VALUE": "200.33"
+    },
+    {
+      "FUEL_CODE": "GBGD",
+      "CO2_VALUE_FROM": "241",
+      "CO2_VALUE_TO": "250.99",
+      "PRICE_VALUE": "218.54"
+    },
+    {
+      "FUEL_CODE": "GBGD",
+      "CO2_VALUE_FROM": "251",
+      "CO2_VALUE_TO": "260.99",
+      "PRICE_VALUE": "236.75"
+    },
+    {
+      "FUEL_CODE": "GBGD",
+      "CO2_VALUE_FROM": "261",
+      "CO2_VALUE_TO": "270.99",
+      "PRICE_VALUE": "254.96"
+    },
+    {
+      "FUEL_CODE": "GBGD",
+      "CO2_VALUE_FROM": "271",
+      "CO2_VALUE_TO": "280.99",
+      "PRICE_VALUE": "273.17"
+    },
+    {
+      "FUEL_CODE": "GBGD",
+      "CO2_VALUE_FROM": "281",
+      "CO2_VALUE_TO": "290.99",
+      "PRICE_VALUE": "291.38"
+    },
+    {
+      "FUEL_CODE": "GBGD",
+      "CO2_VALUE_FROM": "291",
+      "CO2_VALUE_TO": "300.99",
+      "PRICE_VALUE": "309.6"
+    },
+    {
+      "FUEL_CODE": "GBGD",
+      "CO2_VALUE_FROM": "301",
+      "CO2_VALUE_TO": "99999.99",
+      "PRICE_VALUE": "327.81"
+    },
+    {
+      "FUEL_CODE": "GBGDEL",
+      "CO2_VALUE_FROM": "0",
+      "CO2_VALUE_TO": "115.99",
+      "PRICE_VALUE": "0"
+    },
+    {
+      "FUEL_CODE": "GBGDEL",
+      "CO2_VALUE_FROM": "116",
+      "CO2_VALUE_TO": "130.99",
+      "PRICE_VALUE": "0"
+    },
+    {
+      "FUEL_CODE": "GBGDEL",
+      "CO2_VALUE_FROM": "131",
+      "CO2_VALUE_TO": "140.99",
+      "PRICE_VALUE": "18.21"
+    },
+    {
+      "FUEL_CODE": "GBGDEL",
+      "CO2_VALUE_FROM": "141",
+      "CO2_VALUE_TO": "150.99",
+      "PRICE_VALUE": "36.42"
+    },
+    {
+      "FUEL_CODE": "GBGDEL",
+      "CO2_VALUE_FROM": "151",
+      "CO2_VALUE_TO": "160.99",
+      "PRICE_VALUE": "54.63"
+    },
+    {
+      "FUEL_CODE": "GBGDEL",
+      "CO2_VALUE_FROM": "161",
+      "CO2_VALUE_TO": "170.99",
+      "PRICE_VALUE": "72.85"
+    },
+    {
+      "FUEL_CODE": "GBGDEL",
+      "CO2_VALUE_FROM": "171",
+      "CO2_VALUE_TO": "180.99",
+      "PRICE_VALUE": "91.06"
+    },
+    {
+      "FUEL_CODE": "GBGDEL",
+      "CO2_VALUE_FROM": "181",
+      "CO2_VALUE_TO": "190.99",
+      "PRICE_VALUE": "109.27"
+    },
+    {
+      "FUEL_CODE": "GBGDEL",
+      "CO2_VALUE_FROM": "191",
+      "CO2_VALUE_TO": "200.99",
+      "PRICE_VALUE": "127.48"
+    },
+    {
+      "FUEL_CODE": "GBGDEL",
+      "CO2_VALUE_FROM": "201",
+      "CO2_VALUE_TO": "210.99",
+      "PRICE_VALUE": "145.69"
+    },
+    {
+      "FUEL_CODE": "GBGDEL",
+      "CO2_VALUE_FROM": "211",
+      "CO2_VALUE_TO": "220.99",
+      "PRICE_VALUE": "163.9"
+    },
+    {
+      "FUEL_CODE": "GBGDEL",
+      "CO2_VALUE_FROM": "221",
+      "CO2_VALUE_TO": "230.99",
+      "PRICE_VALUE": "182.12"
+    },
+    {
+      "FUEL_CODE": "GBGDEL",
+      "CO2_VALUE_FROM": "231",
+      "CO2_VALUE_TO": "240.99",
+      "PRICE_VALUE": "200.33"
+    },
+    {
+      "FUEL_CODE": "GBGDEL",
+      "CO2_VALUE_FROM": "241",
+      "CO2_VALUE_TO": "250.99",
+      "PRICE_VALUE": "218.54"
+    },
+    {
+      "FUEL_CODE": "GBGDEL",
+      "CO2_VALUE_FROM": "251",
+      "CO2_VALUE_TO": "260.99",
+      "PRICE_VALUE": "236.75"
+    },
+    {
+      "FUEL_CODE": "GBGDEL",
+      "CO2_VALUE_FROM": "261",
+      "CO2_VALUE_TO": "270.99",
+      "PRICE_VALUE": "254.96"
+    },
+    {
+      "FUEL_CODE": "GBGDEL",
+      "CO2_VALUE_FROM": "271",
+      "CO2_VALUE_TO": "280.99",
+      "PRICE_VALUE": "273.17"
+    },
+    {
+      "FUEL_CODE": "GBGDEL",
+      "CO2_VALUE_FROM": "281",
+      "CO2_VALUE_TO": "290.99",
+      "PRICE_VALUE": "291.38"
+    },
+    {
+      "FUEL_CODE": "GBGDEL",
+      "CO2_VALUE_FROM": "291",
+      "CO2_VALUE_TO": "300.99",
+      "PRICE_VALUE": "309.6"
+    },
+    {
+      "FUEL_CODE": "GBGDEL",
+      "CO2_VALUE_FROM": "301",
+      "CO2_VALUE_TO": "99999.99",
+      "PRICE_VALUE": "327.81"
+    },
+    {
+      "FUEL_CODE": "GBGDET",
+      "CO2_VALUE_FROM": "0",
+      "CO2_VALUE_TO": "115.99",
+      "PRICE_VALUE": "0"
+    },
+    {
+      "FUEL_CODE": "GBGDET",
+      "CO2_VALUE_FROM": "116",
+      "CO2_VALUE_TO": "130.99",
+      "PRICE_VALUE": "0"
+    },
+    {
+      "FUEL_CODE": "GBGDET",
+      "CO2_VALUE_FROM": "131",
+      "CO2_VALUE_TO": "140.99",
+      "PRICE_VALUE": "18.21"
+    },
+    {
+      "FUEL_CODE": "GBGDET",
+      "CO2_VALUE_FROM": "141",
+      "CO2_VALUE_TO": "150.99",
+      "PRICE_VALUE": "36.42"
+    },
+    {
+      "FUEL_CODE": "GBGDET",
+      "CO2_VALUE_FROM": "151",
+      "CO2_VALUE_TO": "160.99",
+      "PRICE_VALUE": "54.63"
+    },
+    {
+      "FUEL_CODE": "GBGDET",
+      "CO2_VALUE_FROM": "161",
+      "CO2_VALUE_TO": "170.99",
+      "PRICE_VALUE": "72.85"
+    },
+    {
+      "FUEL_CODE": "GBGDET",
+      "CO2_VALUE_FROM": "171",
+      "CO2_VALUE_TO": "180.99",
+      "PRICE_VALUE": "91.06"
+    },
+    {
+      "FUEL_CODE": "GBGDET",
+      "CO2_VALUE_FROM": "181",
+      "CO2_VALUE_TO": "190.99",
+      "PRICE_VALUE": "109.27"
+    },
+    {
+      "FUEL_CODE": "GBGDET",
+      "CO2_VALUE_FROM": "191",
+      "CO2_VALUE_TO": "200.99",
+      "PRICE_VALUE": "127.48"
+    },
+    {
+      "FUEL_CODE": "GBGDET",
+      "CO2_VALUE_FROM": "201",
+      "CO2_VALUE_TO": "210.99",
+      "PRICE_VALUE": "145.69"
+    },
+    {
+      "FUEL_CODE": "GBGDET",
+      "CO2_VALUE_FROM": "211",
+      "CO2_VALUE_TO": "220.99",
+      "PRICE_VALUE": "163.9"
+    },
+    {
+      "FUEL_CODE": "GBGDET",
+      "CO2_VALUE_FROM": "221",
+      "CO2_VALUE_TO": "230.99",
+      "PRICE_VALUE": "182.12"
+    },
+    {
+      "FUEL_CODE": "GBGDET",
+      "CO2_VALUE_FROM": "231",
+      "CO2_VALUE_TO": "240.99",
+      "PRICE_VALUE": "200.33"
+    },
+    {
+      "FUEL_CODE": "GBGDET",
+      "CO2_VALUE_FROM": "241",
+      "CO2_VALUE_TO": "250.99",
+      "PRICE_VALUE": "218.54"
+    },
+    {
+      "FUEL_CODE": "GBGDET",
+      "CO2_VALUE_FROM": "251",
+      "CO2_VALUE_TO": "260.99",
+      "PRICE_VALUE": "236.75"
+    },
+    {
+      "FUEL_CODE": "GBGDET",
+      "CO2_VALUE_FROM": "261",
+      "CO2_VALUE_TO": "270.99",
+      "PRICE_VALUE": "254.96"
+    },
+    {
+      "FUEL_CODE": "GBGDET",
+      "CO2_VALUE_FROM": "271",
+      "CO2_VALUE_TO": "280.99",
+      "PRICE_VALUE": "273.17"
+    },
+    {
+      "FUEL_CODE": "GBGDET",
+      "CO2_VALUE_FROM": "281",
+      "CO2_VALUE_TO": "290.99",
+      "PRICE_VALUE": "291.38"
+    },
+    {
+      "FUEL_CODE": "GBGDET",
+      "CO2_VALUE_FROM": "291",
+      "CO2_VALUE_TO": "300.99",
+      "PRICE_VALUE": "309.6"
+    },
+    {
+      "FUEL_CODE": "GBGDET",
+      "CO2_VALUE_FROM": "301",
+      "CO2_VALUE_TO": "99999.99",
+      "PRICE_VALUE": "327.81"
+    },
+    {
+      "FUEL_CODE": "GD",
+      "CO2_VALUE_FROM": "0",
+      "CO2_VALUE_TO": "999.99",
+      "PRICE_VALUE": "0"
+    },
+    {
+      "FUEL_CODE": "GDEL",
+      "CO2_VALUE_FROM": "0",
+      "CO2_VALUE_TO": "115.99",
+      "PRICE_VALUE": "0"
+    },
+    {
+      "FUEL_CODE": "GDEL",
+      "CO2_VALUE_FROM": "116",
+      "CO2_VALUE_TO": "130.99",
+      "PRICE_VALUE": "0"
+    },
+    {
+      "FUEL_CODE": "GDEL",
+      "CO2_VALUE_FROM": "131",
+      "CO2_VALUE_TO": "140.99",
+      "PRICE_VALUE": "18.21"
+    },
+    {
+      "FUEL_CODE": "GDEL",
+      "CO2_VALUE_FROM": "141",
+      "CO2_VALUE_TO": "150.99",
+      "PRICE_VALUE": "36.42"
+    },
+    {
+      "FUEL_CODE": "GDEL",
+      "CO2_VALUE_FROM": "151",
+      "CO2_VALUE_TO": "160.99",
+      "PRICE_VALUE": "54.63"
+    },
+    {
+      "FUEL_CODE": "GDEL",
+      "CO2_VALUE_FROM": "161",
+      "CO2_VALUE_TO": "170.99",
+      "PRICE_VALUE": "72.85"
+    },
+    {
+      "FUEL_CODE": "GDEL",
+      "CO2_VALUE_FROM": "171",
+      "CO2_VALUE_TO": "180.99",
+      "PRICE_VALUE": "91.06"
+    },
+    {
+      "FUEL_CODE": "GDEL",
+      "CO2_VALUE_FROM": "181",
+      "CO2_VALUE_TO": "190.99",
+      "PRICE_VALUE": "109.27"
+    },
+    {
+      "FUEL_CODE": "GDEL",
+      "CO2_VALUE_FROM": "191",
+      "CO2_VALUE_TO": "200.99",
+      "PRICE_VALUE": "127.48"
+    },
+    {
+      "FUEL_CODE": "GDEL",
+      "CO2_VALUE_FROM": "201",
+      "CO2_VALUE_TO": "210.99",
+      "PRICE_VALUE": "145.69"
+    },
+    {
+      "FUEL_CODE": "GDEL",
+      "CO2_VALUE_FROM": "211",
+      "CO2_VALUE_TO": "220.99",
+      "PRICE_VALUE": "163.9"
+    },
+    {
+      "FUEL_CODE": "GDEL",
+      "CO2_VALUE_FROM": "221",
+      "CO2_VALUE_TO": "230.99",
+      "PRICE_VALUE": "182.12"
+    },
+    {
+      "FUEL_CODE": "GDEL",
+      "CO2_VALUE_FROM": "231",
+      "CO2_VALUE_TO": "240.99",
+      "PRICE_VALUE": "200.33"
+    },
+    {
+      "FUEL_CODE": "GDEL",
+      "CO2_VALUE_FROM": "241",
+      "CO2_VALUE_TO": "250.99",
+      "PRICE_VALUE": "218.54"
+    },
+    {
+      "FUEL_CODE": "GDEL",
+      "CO2_VALUE_FROM": "251",
+      "CO2_VALUE_TO": "260.99",
+      "PRICE_VALUE": "236.75"
+    },
+    {
+      "FUEL_CODE": "GDEL",
+      "CO2_VALUE_FROM": "261",
+      "CO2_VALUE_TO": "270.99",
+      "PRICE_VALUE": "254.96"
+    },
+    {
+      "FUEL_CODE": "GDEL",
+      "CO2_VALUE_FROM": "271",
+      "CO2_VALUE_TO": "280.99",
+      "PRICE_VALUE": "273.17"
+    },
+    {
+      "FUEL_CODE": "GDEL",
+      "CO2_VALUE_FROM": "281",
+      "CO2_VALUE_TO": "290.99",
+      "PRICE_VALUE": "291.38"
+    },
+    {
+      "FUEL_CODE": "GDEL",
+      "CO2_VALUE_FROM": "291",
+      "CO2_VALUE_TO": "300.99",
+      "PRICE_VALUE": "309.6"
+    },
+    {
+      "FUEL_CODE": "GDEL",
+      "CO2_VALUE_FROM": "301",
+      "CO2_VALUE_TO": "99999.99",
+      "PRICE_VALUE": "327.81"
+    },
+    {
+      "FUEL_CODE": "GDET",
+      "CO2_VALUE_FROM": "0",
+      "CO2_VALUE_TO": "115.99",
+      "PRICE_VALUE": "0"
+    },
+    {
+      "FUEL_CODE": "GDET",
+      "CO2_VALUE_FROM": "116",
+      "CO2_VALUE_TO": "130.99",
+      "PRICE_VALUE": "0"
+    },
+    {
+      "FUEL_CODE": "GDET",
+      "CO2_VALUE_FROM": "131",
+      "CO2_VALUE_TO": "140.99",
+      "PRICE_VALUE": "18.21"
+    },
+    {
+      "FUEL_CODE": "GDET",
+      "CO2_VALUE_FROM": "141",
+      "CO2_VALUE_TO": "150.99",
+      "PRICE_VALUE": "36.42"
+    },
+    {
+      "FUEL_CODE": "GDET",
+      "CO2_VALUE_FROM": "151",
+      "CO2_VALUE_TO": "160.99",
+      "PRICE_VALUE": "54.63"
+    },
+    {
+      "FUEL_CODE": "GDET",
+      "CO2_VALUE_FROM": "161",
+      "CO2_VALUE_TO": "170.99",
+      "PRICE_VALUE": "72.85"
+    },
+    {
+      "FUEL_CODE": "GDET",
+      "CO2_VALUE_FROM": "171",
+      "CO2_VALUE_TO": "180.99",
+      "PRICE_VALUE": "91.06"
+    },
+    {
+      "FUEL_CODE": "GDET",
+      "CO2_VALUE_FROM": "181",
+      "CO2_VALUE_TO": "190.99",
+      "PRICE_VALUE": "109.27"
+    },
+    {
+      "FUEL_CODE": "GDET",
+      "CO2_VALUE_FROM": "191",
+      "CO2_VALUE_TO": "200.99",
+      "PRICE_VALUE": "127.48"
+    },
+    {
+      "FUEL_CODE": "GDET",
+      "CO2_VALUE_FROM": "201",
+      "CO2_VALUE_TO": "210.99",
+      "PRICE_VALUE": "145.69"
+    },
+    {
+      "FUEL_CODE": "GDET",
+      "CO2_VALUE_FROM": "211",
+      "CO2_VALUE_TO": "220.99",
+      "PRICE_VALUE": "163.9"
+    },
+    {
+      "FUEL_CODE": "GDET",
+      "CO2_VALUE_FROM": "221",
+      "CO2_VALUE_TO": "230.99",
+      "PRICE_VALUE": "182.12"
+    },
+    {
+      "FUEL_CODE": "GDET",
+      "CO2_VALUE_FROM": "231",
+      "CO2_VALUE_TO": "240.99",
+      "PRICE_VALUE": "200.33"
+    },
+    {
+      "FUEL_CODE": "GDET",
+      "CO2_VALUE_FROM": "241",
+      "CO2_VALUE_TO": "250.99",
+      "PRICE_VALUE": "218.54"
+    },
+    {
+      "FUEL_CODE": "GDET",
+      "CO2_VALUE_FROM": "251",
+      "CO2_VALUE_TO": "260.99",
+      "PRICE_VALUE": "236.75"
+    },
+    {
+      "FUEL_CODE": "GDET",
+      "CO2_VALUE_FROM": "261",
+      "CO2_VALUE_TO": "270.99",
+      "PRICE_VALUE": "254.96"
+    },
+    {
+      "FUEL_CODE": "GDET",
+      "CO2_VALUE_FROM": "271",
+      "CO2_VALUE_TO": "280.99",
+      "PRICE_VALUE": "273.17"
+    },
+    {
+      "FUEL_CODE": "GDET",
+      "CO2_VALUE_FROM": "281",
+      "CO2_VALUE_TO": "290.99",
+      "PRICE_VALUE": "291.38"
+    },
+    {
+      "FUEL_CODE": "GDET",
+      "CO2_VALUE_FROM": "291",
+      "CO2_VALUE_TO": "300.99",
+      "PRICE_VALUE": "309.6"
+    },
+    {
+      "FUEL_CODE": "GDET",
+      "CO2_VALUE_FROM": "301",
+      "CO2_VALUE_TO": "99999.99",
+      "PRICE_VALUE": "327.81"
+    }
+  ]
+}
