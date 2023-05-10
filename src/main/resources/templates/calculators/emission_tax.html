@@ -18,7 +18,7 @@
                         <span class="text-red-900 text-xs" th:if="${#fields.hasErrors('fuelType')}" th:errors="*{fuelType}"></span>
                     </div>
                     <div>
-                        <label for="emission" class="block text-sm font-semibold leading-6 text-gray-900">CO2 išmetimo kiekis (0 - 1000)</label>
+                        <label for="emission" class="block text-sm font-semibold leading-6 text-gray-900">CO2 išmetimo kiekis (1 - 1000)</label>
                         <div class="mt-2">
                             <input placeholder="0" type="number" name="emission" id="emission" th:field="*{emission}" th:classappend="${#fields.hasErrors('emission')} ? 'invalid' : ''" class="block w-full rounded-md border-0 py-2 px-3.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6">
                         </div>
