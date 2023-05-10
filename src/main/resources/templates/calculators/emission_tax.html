@@ -1,49 +1,45 @@
 <!DOCTYPE HTML>
 <html xmlns:th="http://www.thymeleaf.org">
 <div th:replace="~{components/header}"></div>
-<body class="h-screen waves-bg flex flex-col justify-center bg-gray-50">
-    <div class="py-24 px-6 sm:py-32 lg:px-8">
-        <div class="mx-auto  max-w-xl text-center">
-            <h2 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl uppercase">Co2 mokesčio skaičiuoklė</h2>
-        </div>
-        <div class="p-6 bg-white mx-auto mt-10 max-w-xl shadow-md rounded-lg">
+<body class="h-screen waves-bg flex flex-col justify-center items-center bg-gray-50">
+    <div class="max-w-xl p-4 w-full">
+        <a href="/">
+            <img alt="Klaipėdos Universitetas" th:src="@{img/logo.svg}" />
+        </a>
+        <div class="p-6 bg-white w-full mt-5 shadow-md rounded-lg">
             <form th:action="@{/emission-tax-calculator}" method="POST" class="mx-auto max-w-xl" th:object="${emissionTax}">
                 <div class="grid grid-cols-1 gap-y-6 gap-x-8">
                     <div>
-                        <label for="fuel_type" class="block mb-2 text-sm font-medium text-gray-600">Transporto priemonės energijos šaltinis / šaltiniai</label>
-                        <select id="fuel_type" name="fuelType" th:field="*{fuelType}" th:classappend="${#fields.hasErrors('fuelType')} ? 'invalid' : ''" class="mt-2 mb-1 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5">
+                        <label for="fuel_type" class="block mb-2 text-sm font-medium text-gray-900">Automobilio energijos šaltinis / šaltiniai</label>
+                        <select id="fuel_type" name="fuelType" th:field="*{fuelType}" th:classappend="${#fields.hasErrors('fuelType')} ? 'invalid' : ''" class="mt-2 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5">
                             <option value="">Pasirinkite energijos šaltinį</option>
                             <option th:each="type : ${fuelTypes}" th:value="${type.CODE}" th:text="${type.NAME}"></option>
                         </select>
-                        <span class="text-red-900" th:if="${#fields.hasErrors('fuelType')}" th:errors="*{fuelType}"></span>
+                        <span class="text-red-900 text-xs" th:if="${#fields.hasErrors('fuelType')}" th:errors="*{fuelType}"></span>
                     </div>
                     <div>
                         <label for="emission" class="block text-sm font-semibold leading-6 text-gray-900">CO2 išmetimo kiekis (0 - 1000)</label>
-                        <div class="mt-2 mb-1">
+                        <div class="mt-2">
                             <input placeholder="0" type="number" name="emission" id="emission" th:field="*{emission}" th:classappend="${#fields.hasErrors('emission')} ? 'invalid' : ''" class="block w-full rounded-md border-0 py-2 px-3.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6">
                         </div>
-                        <span class="text-red-900" th:if="${#fields.hasErrors('emission')}" th:errors="*{emission}"></span>
+                        <span class="text-red-900 text-xs" th:if="${#fields.hasErrors('emission')}" th:errors="*{emission}"></span>
                     </div>
                 </div>
-                <div class="mt-5">
-                    <button type="submit" class="block w-full rounded-md bg-indigo-600 px-3.5 py-2.5 text-center text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Skaičiuoti</button>
+                <div class="mt-5 flex">
+                    <a href="/" class="mr-1 block rounded-md bg-gray-400 px-3.5 py-2.5 text-center text-sm font-semibold text-white shadow-sm hover:bg-indigo-600 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 12h-15m0 0l6.75 6.75M4.5 12l6.75-6.75" />
+                        </svg>
+                    </a>
+                    <button type="submit" class="ml-1 block w-full rounded-md bg-indigo-600 px-3.5 py-2.5 text-center text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 uppercase">Skaičiuoti</button>
                 </div>
                 <div class="mt-5 text-red-500" th:if="${general_error}!=null" th:text="${general_error}"></div>
             </form>
         </div>
         <div class="p-6 bg-white mx-auto mt-5 max-w-xl shadow-md rounded-lg">
-            <dt class="text-base font-normal text-gray-900">Mokestis</dt>
+            <dt class="text-base font-normal text-gray-900">Taršos mokestis</dt>
             <dd class="mt-1 flex justify-between items-baseline md:block lg:flex">
                 <div class="flex items-baseline text-2xl font-semibold text-indigo-600" th:text="${price != null ? price : '0.00€'}"></div>
-
-<!--                <div class="inline-flex items-baseline px-2.5 py-0.5 rounded-full text-sm font-medium bg-red-100 text-red-800 md:mt-2 lg:mt-0">-->
-<!--                    &lt;!&ndash; Heroicon name: solid/arrow-sm-up &ndash;&gt;-->
-<!--                    <svg class="-ml-1 mr-0.5 flex-shrink-0 self-center h-5 w-5 text-red-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">-->
-<!--                        <path fill-rule="evenodd" d="M5.293 9.707a1 1 0 010-1.414l4-4a1 1 0 011.414 0l4 4a1 1 0 01-1.414 1.414L11 7.414V15a1 1 0 11-2 0V7.414L6.707 9.707a1 1 0 01-1.414 0z" clip-rule="evenodd" />-->
-<!--                    </svg>-->
-<!--                    <span class="sr-only"> Padidėjo </span>-->
-<!--                    12%-->
-<!--                </div>-->
             </dd>
         </div>
     </div>
